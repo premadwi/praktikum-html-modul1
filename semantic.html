@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Sistem Informasi</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "Times New Roman", serif;
+            font-size: 13px;
+            margin: 0;
+            background: white;
+            color: #111;
+        }
+
+        .container {
+            width: 850px;
+            margin: 15px auto;
+            border: 1px solid #777;
+        }
+
+        header {
+            height: 65px;
+            border-bottom: 1px solid #777;
+            display: flex;
+            align-items: center;
+            padding: 5px;
+        }
+
+        .logo {
+            width: 100px;
+            text-align: center;
+            font-weight: bold;
+            font-size: 10px;
+        }
+
+        nav {
+            flex: 1;
+            display: flex;
+            margin-left: 10px;
+        }
+
+        nav a {
+            flex: 1;
+            text-align: center;
+            padding: 10px 5px;
+            border: 1px solid #999;
+            text-decoration: none;
+            color: black;
+        }
+
+        .admission {
+            width: 80px;
+            text-align: center;
+        }
+
+        .title {
+            text-align: center;
+            padding: 15px;
+            border-bottom: 1px solid #777;
+        }
+
+        main {
+            display: grid;
+            grid-template-columns: 1fr 200px;
+            gap: 5px;
+            padding: 5px;
+        }
+
+        article,
+        aside,
+        footer section {
+            border: 1px solid #888;
+            padding: 8px;
+        }
+
+        article h2 {
+            font-size: 16px;
+            margin-top: 5px;
+        }
+
+        article p {
+            line-height: 1.35;
+            text-align: justify;
+        }
+
+        .video {
+            width: 100%;
+            height: 310px;
+            border: 0;
+        }
+
+        aside h3 {
+            margin-top: 5px;
+            font-size: 14px;
+        }
+
+        aside ul {
+            padding-left: 18px;
+        }
+
+        aside li {
+            margin-bottom: 10px;
+        }
+
+        aside a {
+            color: purple;
+        }
+
+        .footer-content {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr;
+            border-top: 1px solid #777;
+        }
+
+        footer section {
+            border-top: none;
+            border-bottom: none;
+            border-left: none;
+        }
+
+        footer section:last-child {
+            border-right: none;
+        }
+
+        footer h3 {
+            font-size: 13px;
+            margin-top: 3px;
+        }
+
+        footer p,
+        footer li {
+            font-size: 11px;
+            line-height: 1.3;
+        }
+
+        .copyright {
+            border-top: 1px solid #777;
+            padding: 5px 8px;
+            font-size: 11px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <header>
+        <div class="logo">
+            <img src="https://bis-sby.telkomuniversity.ac.id/wp-content/uploads/2024/03/LogoSiBaru.png"width="75">
+        </div>
+
+        <nav>
+            <a href="#">Tentang Kami</a>
+            <a href="#">Akademik</a>
+            <a href="#">Dosen & Staf</a>
+            <a href="#">Kerja Sama</a>
+            <a href="#">Blog</a>
+        </nav>
+
+        <div class="admission">
+            <a href="#">Admisi</a>
+        </div>
+    </header>
+
+
+    <div class="title">
+        <h2>Blog Sistem Informasi</h2>
+    </div>
+
+
+    <main>
+
+        <article>
+            <h2>
+                Mengenal Telkom University Surabaya Melalui Company Profile
+            </h2>
+
+            <p>
+                Telkom University Surabaya merupakan salah satu kampus yang
+                berada di bawah naungan Telkom University. Kampus ini hadir
+                untuk menyediakan pendidikan tinggi yang menggabungkan
+                perkembangan teknologi, ilmu pengetahuan, dan kebutuhan
+                industri.
+            </p>
+
+            <p>
+                Melalui video Company Profile, Telkom University Surabaya
+                memperkenalkan lingkungan kampus, berbagai fasilitas,
+                kegiatan akademik, serta suasana kehidupan mahasiswa.
+                Video tersebut memberikan gambaran mengenai kampus dan
+                berbagai aktivitas yang dapat mendukung proses pembelajaran
+                mahasiswa.
+            </p>
+
+            <p>
+                Telkom University Surabaya juga memiliki berbagai program
+                pendidikan dan kegiatan yang dirancang untuk mempersiapkan
+                mahasiswa menghadapi perkembangan teknologi serta dunia
+                kerja. Informasi lebih lengkap mengenai Telkom University
+                Surabaya dapat dilihat melalui video berikut.
+            </p>
+
+            <iframe
+                class="video"
+                src="https://www.youtube.com/embed/j7H1TVfbBgk"
+                title="Company Profile Telkom University Surabaya"
+                allowfullscreen>
+            </iframe>
+        </article>
+
+
+        <aside>
+            <h3>Artikel Terbaru</h3>
+
+            <ul>
+                <li>
+                    <a href="#">
+                        Mengenal Sistem Informasi di Telkom University
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        Kegiatan Akademik Mahasiswa
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        Company Profile Telkom University Surabaya
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        Fasilitas Kampus Telkom University
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        Kehidupan Mahasiswa di Kampus
+                    </a>
+                </li>
+            </ul>
+
+            <h3>Artikel Terpopuler</h3>
+
+            <ul>
+                <li><a href="#">Program Studi Sistem Informasi</a></li>
+                <li><a href="#">Profil Telkom University</a></li>
+                <li><a href="#">Fasilitas dan Teknologi Kampus</a></li>
+            </ul>
+        </aside>
+
+    </main>
+
+
+    <footer>
+
+        <div class="footer-content">
+
+            <section>
+                <h3>Sistem Informasi</h3>
+
+                <p>
+                    Situs informasi Program Studi Sistem Informasi
+                    Telkom University Surabaya. Website ini menyediakan
+                    informasi mengenai program studi, akademik, kegiatan,
+                    dan informasi kampus.
+                </p>
+
+                <p>
+                    Program Studi Sistem Informasi memadukan ilmu teknologi
+                    informasi dengan kebutuhan bisnis dan organisasi.
+                </p>
+            </section>
+
+            <section>
+                <h3>Tautan Penting</h3>
+
+                <ul>
+                    <li>Mahasiswa & Alumni</li>
+                    <li>Kerja Sama</li>
+                    <li>Proyek</li>
+                </ul>
+
+                <h3>Tentang Universitas</h3>
+
+                <ul>
+                    <li>Telkom Indonesia</li>
+                    <li>Yayasan Pendidikan Telkom</li>
+                    <li>Telkom University</li>
+                </ul>
+            </section>
+
+            <section>
+                <h3>Info Kontak</h3>
+
+                <ul>
+                    <li>Surabaya, Jawa Timur</li>
+                    <li>Telepon: +62 31 8280800</li>
+                    <li>Email: info@telkomuniversity.ac.id</li>
+                </ul>
+
+                <h3>Media Sosial</h3>
+                <ul>
+                    <li>Instagram</li>
+                </ul>
+            </section>
+
+        </div>
+
+        <div class="copyright">
+            <b>Copyright © 2026 Information Systems</b><br>
+            Built with HTML
+        </div>
+
+    </footer>
+
+</div>
+
+</body>
+</html>
